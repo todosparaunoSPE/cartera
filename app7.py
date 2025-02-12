@@ -250,4 +250,4 @@ st.write("""
 
 # Footer con copyright
 st.markdown("---")
-st.write("© 2023 Derechos Reservados | Desarrollado por Javier Horacio Pérez Ricárdez")
+st.write("© 2025 Derechos Reservados | Desarrollado por Javier Horacio Pérez Ricárdez")
