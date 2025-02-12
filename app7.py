@@ -37,6 +37,22 @@ st.markdown("""
 Esta aplicación permite evaluar el riesgo y la rentabilidad de una cartera de inversiones utilizando simulaciones de Monte Carlo.
 """)
 
+
+
+# Sidebar: Botón de descarga y sección de ayuda
+with st.sidebar:
+    # Botón para descargar el archivo PDF
+    with open("riesgo_inversion.pdf", "rb") as pdf_file:
+        pdf_bytes = pdf_file.read()
+        st.download_button(
+            label="Descargar Manual de la Aplicación",
+            data=pdf_bytes,
+            file_name="riesgo_inversion.pdf",
+            mime="application/pdf"
+        )
+
+
+
 # Sidebar: Sección de ayuda y créditos
 with st.sidebar:
     st.header("Ayuda")
