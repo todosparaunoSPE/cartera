@@ -61,7 +61,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.write("Desarrollado por: **Javier Horacio Pérez Ricárdez**")
-    st.write("© 2023 Derechos Reservados")
+    st.write("© 2025 Derechos Reservados")
 
 # Generar datos simulados para 5 instrumentos
 @st.cache_data
